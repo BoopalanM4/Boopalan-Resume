@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+      
+</head>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js")
+      .then(() => console.log("SW registered"))
+      .catch(err => console.log("SW failed", err));
+  }
+</script>
+<body>
+
+<div class="container">
+    <div id="head">
+
+    <h1>BOOPALAN M</h1>
+    <div class="contact">
+        <p> 9025685116 |
+         <a href="mailto:boopal9087@gmail.com">boopal9087@gmail.com</a> |
+         <a href="https://www.linkedin.com/in/boopalan-m-2b4a45231/" target="_self">LinkedIn </a>
+        | Vellore, Tamil Nadu
+         </p>
+         </div>
+    </div>
+
+    <h2>Profile</h2>
+    <p>
+        Recent MCA graduate seeking an entry-level position as a Web Developer. Eager to leverage programming skills and database knowledge to contribute
+        to innovative projects. Committed to continuous learning and adapting to new technologies looking forword to making a positive impact wihin a dynamic team.
+    </p>
+
+    <h2>Professional Experience</h2>
+    <p><strong>Internship Trainee – Aspire Systems (India) Pvt Ltd</strong></p>
+    <ul>
+        <li>Learned problem-solving techniques and data structures with focus on algorithm optimization and efficiency.</li>
+        <li>Practiced professional email etiquette in a corporate IT environment.</li>
+        <li>Collaborated with team members to gain insights into industry prractices, thereby enhacing both technical and problrm-solving skills.</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <p><strong>Identification of Migration Patterns for Understanding Student Learning Behavior</strong></p>
+    <p><strong>Technologies:</strong> Java, HTML, CSS | <strong>Database:</strong> MySQL</p>
+    <ul>
+        <li>Integrates with LMS(Learning Management Systems) or uses APIs/ web scraping to collect data on student.</li>
+        <li>Used machine learning techniques like clustering and sequence analysis.</li>
+        <li>Focused mainly on CRUD operations with external database storage.</li>
+    </ul>
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <p><strong>Technical Skills:</strong></p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+        <p><strong>Soft Skills:</strong></p>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Active Listening</li>
+            <li>Interpersonal Communication</li>
+        </ul>
+
+        <p><strong>Tools:</strong></p>
+        <ul>
+            <li>VS Code</li>
+            <li>MySQL</li>
+            <li>Eclipse</li>
+            <li>MS Word</li>
+            <li>MS PowerPoint</li>
+        </ul>
+    </div>
+
+    <h2>Certificates</h2>
+    <ul>
+        <li>Completed HTML Course Spoken Tutorial Project, IIT Bombay.</li>
+        <li>Completed Python Course at Cisco Networking Academy.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+        <li><strong>MCA</strong> <br> Ganadipathy Tulsi's Jain Engineering College (CGPA: 8.2)</li>
+        <li><strong>BCA</strong> <br> KMG College Of Arts And Science(CGPA: 8.4)</li>
+        <li><strong>HSC</strong> <br> National Higher Secondary School(Per: 54%)</li>
+        <li><strong>SSLC</strong> <br> Guruji Matric School (Per: 80%)</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <ul>
+        <li>English</li>
+        <li>Tamil</li>
+    </ul>
+
+    <h2>Declaration</h2>
+        <p>
+        I hereby declare that the information provided is true and accurate to the best of my knowledge.
+    </p>
+    <br>
+        <p><strong>Place:</strong></p>
+        <p><strong>Date:</strong> </p><p class="sign"><strong>Signature</strong></p>
+</div>
+<script src="sw.js"></script>
+
+</body>
+</html>
